@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mi primera web</title>
+    <style> 
+    table,th,td {
+        border: 1px solid black;
+    }
+    </style> 
+</head>
+<body>
+
+    <table style="width: 500px; ">
+        <thead> <!-- para alinear elemento de una cabecerá-->
+            <tr> <!-- Fila dentro de la tabla -->
+                <th> Producto</th> <!-- para indicar que es una cabecerá-->
+                <th> Precio </th>
+            </tr>
+        </thead>
+        <tbody> <!-- para aliniear o agrupar elementos que pertencen a la tabla-->
+        <tr> 
+            <td>Hola beat</td> <!-- para definir datos dentro de las celdas-->
+            <td>Es gratis</td>
+        </tr>
+        <tr> 
+            <td>Chancito Feliz</td> 
+            <td>$20</td>
+        </tr>
+        <tr> 
+            <td>Chancito Feliz muy feliz</td> 
+            <td>$29</td>
+        </tr>
+        </tbody> 
+        <tfoot>
+            <td> </td>
+            <td>$80</td>
+        </tfoot>
+    </table> 
+
+    <!-- Lista no ordenada-->
+    <ul>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+    </ul>
+<!-- Lista ordenada-->
+    <ol>
+        <li value="10"> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li> Elemento 4</li>
+        <li> 
+            <ol>
+                <!-- Para cambiar el tipo de valor del indice de la lista
+                    Ctrl + espacio para mostrar la lista 
+                -->
+                <li style="list-style-type: lower-alpha;">sub elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <!-- POST Y GET para enviar formularios-->
+    <form action = "/formulario" method="POST"> <!-- Para recopilar datos del usuario-->
+        <label for="nombre"> Nombre </label> <!-- la funcion for te da foco al JTexfield-->
+        <input  type="" id="nombre" name="Nombre" placeholder="Nombre del usuario"/> 
+        <!-- Placeholder indica el dato a introducir
+            La etiqueta type sirva para el tipo de input, por default viene en text
+            submit es como un boton
+            email 
+            password 
+            radio - boton circular 
+            checkbox - para marcar casilla
+            file - para seleccionar archivos
+            value="denilson" es un valor por defecto que va dentro del input
+            mostrará el texto escrito en el campo    
+        -->
+        <br> 
+        <label for="Apellido"> Apellido </label> <!-- la funcion for te da foco al JTexfield-->
+        <input type="" id="Apellido" name="Apellido" placeholder="Apellido del usuario"/> 
+        <br> 
+        <label for="comentario"> Comentario </label> 
+        <textarea rows="10" cols="50" id="comentario" placeholder="ingrese comentario" name="comentario"></textarea> 
+        <!-- Rows ws para el alto de la caja
+            Cols sirve para el ancho
+        -->
+        <br>
+        <!--   <input type="submit"/>  boton -->
+        <!-- Envia todos los datos de los formularios y los envía al servidor
+             Dentro de form se expecifica donde se envían. 
+        -->
+        <button type="button">Tipo boton </button>
+        <!-- tipo boton: solo sirve de boton
+            tipo reset: regresa los valores por defecto del formulario 
+            tipo submit: envía el formulario
+        -->
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit </button>
+
+
+    </form>
+    <h1> Mi primer heading </h1>
+    <h2> Mi segundo heading </h2>
+    <h3> Mi tercer heading </h3>
+    <h4> Mi cuarto heading </h4>
+    <h5> Mi quinto heading </h5>
+    <h6> Mi sexto heading </h6>
+    <p> hola esta es mi primer página web</p>
+    <hr> 
+    <p> Hola mi segundo texto</p> 
+    <!-- Este texto es un comentario -->
+    <h2> Mi segundo heading </h2>
+    <p> hola esta es un texto <span style="color:blue"> 
+    más grande de lo normal pero solo es una muestra para </span>la etiqueta de span!</p><br>
+    <a href="https://www.google.com"> Ir a google </a>
+    <br> 
+    <a target="_blank" href="https://www.google.com"> Ir a google en otra ventana</a>
+    <br>
+    <img src="img/Woshingo.png" />
+    <!-- para minipular anchura y altura "width, heigt"-->
+</body>
+</html>
