@@ -1,0 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+#sp2{
+    color:red;
+}
+#sp1{
+   /* margin: 100px;
+    padding: 100px;*/
+    color:black;
+}
+
+p span{
+    color:blueviolet;
+}
+.funete{
+    font-family: Arial, Helvetica, sans-serif;
+}
+span::after{
+    content: "XXX"'\A'; white-space: pre; 
+}
+#uv1{
+    text-align: center;
+}
+#uv1 p{
+    background-color:darksalmon;
+    font-family: sans-serif;
+}
+#uv1 h1{
+    background-color: aquamarine;
+}

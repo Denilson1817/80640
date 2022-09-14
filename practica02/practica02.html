@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>practica 02 css</title>
+    <!-- el orden en el que CSS prevalece depende de su renderizado, el ultimo prevalece. -->
+    <!-- estilo global a la página.-->
+    <style> 
+    span{
+        color: blue;
+    }
+    #sp1 {
+        color:green;
+    }
+
+    </style>
+    <!-- estilo global al sitio -->
+    <link rel="stylesheet" href="practica02.css">
+</head>
+<body>
+    <h1 style="color:red;">Texto nivel 1 </h1> 
+    <!--lorem*5-->
+    <p><span id="sp1">asasfkjsndf sdf ksd kldjfglkd jfg kldg dfglkjdfg kdf </span>
+    af kamlsd a asmf sdvsd vsdls sldvñsld ñlsdvsmdvmvdfbd sd dfkb mdfb<span>
+    askdasf sdgdfk df dfgl dfg dfg dfgk dfg asf fd dfg d hola asdensd as aksdn a das asd
+    =Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, consequatur? 
+    Ea mollitia laudantium inventore. Voluptate, 
+    molestias iure nulla autem ipsam aliquid tempore cum eos quod.
+     Voluptates praesentium natus ut delectus.
+    </span>
+    </p> 
+    <p><span id="sp2">asasfkjsndf sdf ksd kldjfglkd jfg kldg dfglkjdfg kdf </span>
+        af kamlsd a asmf sdvsd vsdls sldvñsld ñlsdvsmdvmvdfbd sd dfkb mdfb
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nisi, esse aliquid dolor, 
+        quos consequuntur minima accusamus nam nesciunt magni deserunt beatae saepe, 
+        voluptatum repudiandae in quae autem recusandae illo?<span>
+        askdasf sdgdfk df dfgl dfg dfg dfgk dfg asf fd dfg d hola asdensd as aksdn a das asd 
+        </span><span class="fuente">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Inventore ad nobis veritatis! Veritatis non iste aspernatur, 
+            ab obcaecati exercitationem dolor quidem saepe eum voluptatem,
+             dolorum quia natus doloribus nostrum dicta?</span>
+        </p>
+        <div id="uv1"> 
+        <br> 
+        <h1> Este es un div para la uv</h1>
+        <p> Hola soy estudiante de la uv de matricula:</p>
+        <b>ZS19016353</b> 
+        <br> 
+        <img src="img/descarga.png">
+        <br>
+        </div> 
+        <img class="gato" src="img/gato.png" width="200px">
+</body>
+</html>
