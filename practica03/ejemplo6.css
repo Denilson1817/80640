@@ -1,0 +1,23 @@
+.Header{
+    background-color: green;
+    width: auto;
+    height: 300px;
+    text-align: center;
+}
+.Menu{
+    background-color: blue;
+    height: 100px;
+}
+.Contenido{
+    background-color: brown;
+    width: 1000px;
+    height: 400px;
+}
+.Publicidad{
+    background-color: aquamarine;
+
+}
+.Pie{
+    background-color: blue;
+    height: 100px;
+}
