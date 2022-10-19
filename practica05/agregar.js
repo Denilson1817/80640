@@ -15,7 +15,19 @@ function agregar( ) {
 
 function buscar( ){
     listaTodo = document.getElementsByTagName("li")
+    for(let tarea in listaTodo){
+        if(Object.hasOwnProperty.call(listaTodo,tarea)){
+            console.log(listaTodo[tarea].childNodes[0])
+            a = listaTodo[tarea].childNodes[0]
+            b = leer ()
+            console.log("a ", typeof a.textContent, "b ",typeof b)
 
+            if (a == b){
+                console.log (" ya existe")
+            }
+        }
+
+    }
 
         if(document.getElementById(leer()) != null ){
             alert("Ya existe")
