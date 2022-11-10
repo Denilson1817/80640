@@ -44,7 +44,7 @@ public class App {
             JsonObject peticionDelCliente = arbol.getAsJsonObject();
             System.out.println(peticionDelCliente.get("email"));
             System.out.println(peticionDelCliente.get("password"));
-            System.out.print(parser);2
+            System.out.print(parser);
 
             res.status(200);// Codigo de respuesta
             JsonObject oRespuesta = new JsonObject();

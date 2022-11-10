@@ -9,7 +9,7 @@ import java.util.HashMap;
  * Hello world!
  *
  */
-public class App {
+public class AppDb {
     public static Gson gson = new Gson();
     //base de datos en memoria
     public static Map<String, Usuario> usuarios = new HashMap<>();
